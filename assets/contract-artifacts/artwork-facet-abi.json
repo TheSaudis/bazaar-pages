@@ -83,6 +83,19 @@
 		"type": "function"
 	},
 	{
+		"inputs": [],
+		"name": "getCrateCount",
+		"outputs": [
+			{
+				"internalType": "uint32[]",
+				"name": "",
+				"type": "uint32[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
 		"inputs": [
 			{
 				"internalType": "uint256",
@@ -357,6 +370,24 @@
 			}
 		],
 		"name": "transferOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "tokenIds",
+				"type": "uint256[]"
+			},
+			{
+				"internalType": "uint8[]",
+				"name": "crateTypeIds",
+				"type": "uint8[]"
+			}
+		],
+		"name": "upgradeCrate",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
