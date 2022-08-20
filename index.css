@@ -79,7 +79,7 @@
 }
 
 /*
-! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
+! tailwindcss v3.1.4 | MIT License | https://tailwindcss.com
 */
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -1173,6 +1173,22 @@ video {
 .text-\[\#EFB95F\]{
   --tw-text-opacity: 1;
   color: rgb(239 185 95 / var(--tw-text-opacity));
+}
+.text-\[\#AC5A36\]{
+  --tw-text-opacity: 1;
+  color: rgb(172 90 54 / var(--tw-text-opacity));
+}
+.text-\[\#BECAD1\]{
+  --tw-text-opacity: 1;
+  color: rgb(190 202 209 / var(--tw-text-opacity));
+}
+.text-\[\#FDF076\]{
+  --tw-text-opacity: 1;
+  color: rgb(253 240 118 / var(--tw-text-opacity));
+}
+.text-\[\#B5DAF9\]{
+  --tw-text-opacity: 1;
+  color: rgb(181 218 249 / var(--tw-text-opacity));
 }
 .text-slate-400{
   --tw-text-opacity: 1;
